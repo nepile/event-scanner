@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"github.com/nepile/event-scanner/infrastructure/config"
+	"github.com/nepile/event-scanner/infrastructure/db"
+)
 
 func main() {
-	fmt.Println("Ready to development..")
+	config.LoadConfig()
+	db.ConnectDB()
 }
