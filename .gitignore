@@ -1,0 +1,17 @@
+*.exe
+*.dll
+*.so
+*.dylib
+/bin/
+/build/
+/dist/
+*.test
+*.out
+.env
+.env.local
+.env.*.local
+*.log
+.vscode/
+.idea/
+*.swp
+.DS_Store
